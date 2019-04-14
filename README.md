@@ -322,7 +322,7 @@ class Vehicle {
 ...and how can we extend our class in ES6?
 
 ```javascript
-class Car extends Vehicle() {
+class Car extends Vehicle {
   constructor(color) {
     super(color)
   }
